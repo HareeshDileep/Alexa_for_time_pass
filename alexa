@@ -1,4 +1,4 @@
- import speech_recognition as sr
+import speech_recognition as sr
 import pyttsx3
 import pywhatkit
 import datetime
@@ -32,7 +32,7 @@ def take_command():
 
 
 def run_alexa():
-    command = take_command()
+     command =  take_command()
     print(command)
     if 'play' in command:
         song = command.replace('play', '')
@@ -57,4 +57,4 @@ def run_alexa():
 
 
 while True:
-    run_alexa()
+     run_alexa()
